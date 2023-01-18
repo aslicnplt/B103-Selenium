@@ -11,8 +11,9 @@ import java.util.Map;
 public class C01_ExcelRead {
     @Test
     public void readExcelTest() throws Exception {
-//    WORKBOOK (EXCEL DOSYASI) > WORKSHEET/SHEET(SAYFA) >ROW (SATIR)> CELL(VERI HUCRESI)...
-        //String path ="./src/test/java/resources/Capitals.xlsx"; (MAC)
+//    WORKBOOK (EXCEL DOSYASI) > WORKSHEET/SHEET(SAYFA) >ROW (SATIR)> CELL(VERI HUCRESI)...BU DEGİSİKLİGİ GİTHUBDA YAPTIM
+        //String path ="./src/test/java/resources/Capitals.xlsx"; (MAC).
+
      String path =".\\src\\test\\java\\resources\\Capitals.xlsx";//WINDOWS.
 //        DOSYAYI AC
         FileInputStream fileInputStream = new FileInputStream(path);

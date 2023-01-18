@@ -20,7 +20,7 @@ public class C01_ExcelRead {
 //        EXCEL DOSYASINI AC /WORKBOOK AC
         Workbook workbook= WorkbookFactory.create(fileInputStream);
 //        SAYFAYI AC / Sheet1
-     //   Sheet sheet1=workbook.getSheetAt(0);//index 0 dan baslar.ilk sayfayı ac
+     //   Sheet sheet1=workbook.getSheetAt(0);//index 0 dan baslar.ilk sayfayı ac.....bu değişikliği asli branch'inde yaptım.
         Sheet sheet1=workbook.getSheet("Sheet1");//Sheet1 isimli objeyi ac
 //        ILK SATIRA GIT / Row
 
